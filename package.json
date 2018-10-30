@@ -1,0 +1,29 @@
+{
+  "name": "jujube-vue-clipboard",
+  "version": "0.0.2",
+  "description": "clipboard for vue",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "clipboard",
+    "copy",
+    "cp",
+    "vue"
+  ],
+  "author": "snowjujube",
+  "license": "ISC",
+  "dependencies": {
+    "clipboard": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
